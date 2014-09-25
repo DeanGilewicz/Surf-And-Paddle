@@ -13,46 +13,60 @@
   background-repeat: no-repeat;
 }
 
-.topNav img, .topNav p {
+.topNavLeft {
   float: left;
+  width: 270px;
+  margin-left: 141px;
+  margin-top: 8px;
 }
 
-.searchIcon {
-  margin-left: 5px;
-  margin-top: 15px;
+.topNavLeft img {
+  float: left;
+  margin-right: 13px;
 }
 
-.topNav {
-  overflow: auto;
-  margin-left: 150px;
-}
-
-.topNav p:nth-child(3) {
-  margin-left: 500px;
-}
-
-.topNav p:nth-child(4) {
-  margin-left: 20px;
-}
-
-h1, h5 {
+.topNavRight {
+  float: right;
+  width: 160px;
+  margin-right: 168px;
+  margin-top: -3px;
+  font-size: 1.2em;
   font-family: 'Oswald', sans-serif;
-  text-align: center;
-  margin: 0px;
-  position: relative;
-  top: 150px;
+}
+
+.topNavRight nav {
+  float: left;
+  margin-right: 12px;
+  margin-top: 20px;
+}
+
+.topNavRight img {
+  margin-top: 24px;
+}
+
+.title {
   clear: both;
+  text-align: center;
+  padding-top: 138px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-  font-size: 5em;
+.title p:nth-child(1) {
+  font-size: 5.8em;
   color: HSLA(0, 0%, 100%, 1.00);
+  margin: 0px;
 }
 
-h5 {
+.title p:nth-child(2) {
   font-size: 0.8em;
   color: HSLA(204, 82%, 17%, 1.00);
+  margin:0px;
 }
+
+
+
+
+
 
 
 
