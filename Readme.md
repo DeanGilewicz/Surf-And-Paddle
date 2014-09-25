@@ -1,6 +1,6 @@
-This is my project.
+This is my Surf and Paddle project.
 
-# This is my title
+# This is my first project creating a mock up using HTML and CSS
 
 ## This is a sub-title
 
