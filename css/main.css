@@ -4,7 +4,7 @@
   margin: 0 auto;
 }
 
-.body {
+body {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -135,6 +135,34 @@ blockquote {
   margin-top: 0px;
   letter-spacing: -0.4px;
 }
+
+.buttons ul {
+  margin-left: -36px;
+}
+
+.buttons ul li {
+  float: left;
+  margin-right: 11px;
+  margin-top: -8px;
+  font-size: 13px;
+  list-style-type: none;
+  background-color: gray;
+  color: white;
+}
+
+.buttons img {
+  background-color: red;
+  height: 17px;
+  padding: 7px;
+  vertical-align: middle;
+}
+
+.buttons span {
+  margin: 13px;
+}
+
+
+/* SIDEBAR SECTION */
 
 .sidebar {
   border-width: 5px;
