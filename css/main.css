@@ -63,17 +63,24 @@
   margin-top: -18px;
 }
 
+/* TEXT SECTION */
 
 .mainText {
   border-width: 5px;
   border-style: solid;
   border-color: red;
   float: left;
-  width: 500px;
+  width: 610px;
+  margin-left: 158px;
 }
 
 h1 {
   text-transform: uppercase;
+  font-size: 4em;
+  font-family: 'Oswald', sans-serif;
+  line-height: 69px;
+  letter-spacing: -1.3px;
+  margin-top: 59px;
 }
 
 .author img, .author p {
@@ -93,9 +100,4 @@ h1 {
 }
 
 
-
-
-
-/* .body {
-  font-family: 'Open Sans', sans-serif;
-} */
+/* SIDEBAR SECTION */
