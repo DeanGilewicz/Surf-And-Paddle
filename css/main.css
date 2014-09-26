@@ -102,6 +102,15 @@ h1 {
   font-size: 13px;
 }
 
+.author p:last-child {
+  margin-left: 16px;
+}
+
+.author p:last-child span {
+  margin-left: 5px;
+  letter-spacing: 0.5px;
+}
+
 .content {
   clear: both;
 }
