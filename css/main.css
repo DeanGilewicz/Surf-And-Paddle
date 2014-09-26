@@ -122,15 +122,18 @@ h1 {
 
 .content p {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 28px;
 }
 
 blockquote {
-  font-size: 25px;
+  font-size: 26px;
   border-left: 2px solid black;
-  padding-left: 19px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-top: 15px;
+  padding-bottom: 9px;
+  margin-left: 6px;
+  margin-top: 0px;
+  letter-spacing: -0.4px;
 }
 
 .sidebar {
