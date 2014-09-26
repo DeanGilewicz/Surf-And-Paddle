@@ -109,6 +109,7 @@ h1 {
 .author p:last-child span {
   margin-left: 5px;
   letter-spacing: 0.5px;
+  text-decoration: underline;
 }
 
 .content {
