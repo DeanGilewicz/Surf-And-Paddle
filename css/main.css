@@ -17,7 +17,7 @@
   float: left;
   width: 270px;
   margin-left: 141px;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .topNavLeft img {
@@ -28,7 +28,7 @@
 .topNavRight {
   float: right;
   width: 160px;
-  margin-right: 168px;
+  margin-right: 177px;
   margin-top: -3px;
   font-size: 1.2em;
   font-family: 'Oswald', sans-serif;
@@ -36,12 +36,13 @@
 
 .topNavRight nav {
   float: left;
-  margin-right: 12px;
+  margin-left: 10px;
   margin-top: 20px;
 }
 
 .topNavRight img {
   margin-top: 24px;
+  margin-left: 5px;
 }
 
 .title {
