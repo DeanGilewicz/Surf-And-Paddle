@@ -7,7 +7,7 @@
 
 /* HEADER SECTION */
 
-.header {
+.topBanner {
   height: 523px;
   background-image: url("../img/header.jpg");
   background-repeat: no-repeat;
@@ -64,9 +64,33 @@
 }
 
 
+.mainText {
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  float: left;
+  width: 500px;
+}
 
+h1 {
+  text-transform: uppercase;
+}
 
+.author img, .author p {
+  float: left;
+}
 
+.content {
+  clear: both;
+}
+
+.sidebar {
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  float: right;
+  width: 500px;
+}
 
 
 
