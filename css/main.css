@@ -172,5 +172,10 @@ blockquote {
   width: 500px;
 }
 
+.contact img, .contact span {
+  display: block;
+}
 
-/* SIDEBAR SECTION */
+/*.sideText span {
+  font-family: 'Oswald', sans-serif;
+}*/
