@@ -53,15 +53,14 @@
 }
 
 .title p:nth-child(1) {
-  font-size: 5.8em;
+  font-size: 6em;
   color: HSLA(0, 0%, 100%, 1.00);
   margin: 0px;
 }
 
 .title p:nth-child(2) {
-  font-size: 0.8em;
   color: HSLA(204, 82%, 17%, 1.00);
-  margin:0px;
+  margin-top: -18px;
 }
 
 
