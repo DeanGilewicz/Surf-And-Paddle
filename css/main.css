@@ -210,8 +210,34 @@ blockquote {
 
 .sideText {
   clear: both;
+  padding-top: 44px;
+  letter-spacing: -1px;
 }
 
-/*.sideText span {
+.sideText span {
+  text-transform: uppercase;
+  font-size: 20px;
   font-family: 'Oswald', sans-serif;
-}*/
+}
+
+.sideText p {
+  margin-top: 5px;
+}
+
+/* FOOTER SECTION */
+
+.mainFooter {
+  clear: both;
+}
+
+h4 {
+  text-align: center;
+}
+
+.footerImages {
+  float: left;
+}
+
+.footerImages img {
+  margin-right: -4px;
+}
