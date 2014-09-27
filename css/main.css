@@ -2,6 +2,7 @@
 
 .container {
   margin: 0 auto;
+  max-width: 1300px;
 }
 
 body {
@@ -74,7 +75,7 @@ body {
   border-color: red;
   float: left;
   width: 615px;
-  margin-left: 158px;
+  margin-left: 149px;
 }
 
 h1 {
@@ -169,12 +170,31 @@ blockquote {
   border-style: solid;
   border-color: red;
   float: right;
-  width: 500px;
+  width: 284px;
+  margin-right: 158px;
 }
 
-.contact img, .contact span {
-  display: block;
+.contact {
+  margin-top: 79px;
+  text-align: center;
 }
+
+.contact span {
+  display: block;
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-top: 4px;
+}
+
+.contact a {
+  font-size: 12px;
+}
+
+.contact a:nth-child(4) {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
 
 /*.sideText span {
   font-family: 'Oswald', sans-serif;
