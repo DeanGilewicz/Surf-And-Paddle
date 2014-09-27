@@ -216,8 +216,9 @@ blockquote {
 
 .sideText span {
   text-transform: uppercase;
-  font-size: 20px;
   font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+
 }
 
 .sideText p {
@@ -228,10 +229,15 @@ blockquote {
 
 .mainFooter {
   clear: both;
+  overflow: auto;
 }
 
 h4 {
   text-align: center;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 61px;
+  margin-top: 26px;
 }
 
 .footerImages {
