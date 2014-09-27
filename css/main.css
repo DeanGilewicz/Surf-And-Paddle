@@ -170,8 +170,8 @@ blockquote {
   border-style: solid;
   border-color: red;
   float: right;
-  width: 284px;
-  margin-right: 158px;
+  width: 280px;
+  margin-right: 163px;
 }
 
 .contact {
@@ -195,6 +195,22 @@ blockquote {
   margin-left: 15px;
 }
 
+.ad img {
+  display: block;
+  margin-top: 50px;
+}
+
+.ad a {
+  float: right;
+  font-size: 13px;
+  margin-right: 3px;
+  margin-top: 4px;
+  text-decoration: underline;
+}
+
+.sideText {
+  clear: both;
+}
 
 /*.sideText span {
   font-family: 'Oswald', sans-serif;
