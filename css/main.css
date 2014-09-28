@@ -297,13 +297,20 @@ left: 668px;
   left: 995px;
 }
 
+/* BOTTOM BANNER */
+
+.bottomBanner {
+  clear: both;
+  overflow: auto;
+  margin-top: -5px;
+  padding-bottom: 33px;
+  background-color: red;
+}
+
 .tiy {
-  border-width: 5px;
-  border-style: solid;
-  border-color: red;
   float: left;
-  margin-left: 160px;
-  margin-top: 17px;
+  margin-left: 165px;
+  margin-top: 20px;
 }
 
 .tiy img {
@@ -315,20 +322,17 @@ left: 668px;
   font-size: 13px;
   margin-left: 8px;
   letter-spacing: 0.3px;
-  margin-top: 11px;
+  margin-top: 17px;
 }
 
 .navItems {
-  border-width: 5px;
-  border-style: solid;
-  border-color: red;
   float: right;
-  margin-right: 156px;
-  margin-top: 27px;
+  margin-top: 36px;
+  margin-right: 152px;
 }
 
 .navItems nav {
-  float: left;
+  display: inline-block;
   font-size: 13px;
   margin-right: 1px;
   border-right: 1px solid black;
