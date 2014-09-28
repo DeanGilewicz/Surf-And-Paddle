@@ -243,10 +243,21 @@ h4 {
 
 .footerImages {
   float: left;
+  position: relative;
 }
 
 .footerImages img {
   margin-right: -4px;
+}
+
+.picText1 {
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  bottom: 14px;
+  left: 15px;
+  letter-spacing: 1px;
 }
 
 .tiy {
