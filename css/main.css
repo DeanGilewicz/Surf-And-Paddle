@@ -29,6 +29,12 @@ body {
   margin-right: 13px;
 }
 
+.topNavLeft a {
+  float: left;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
 .topNavRight {
   float: right;
   width: 160px;
@@ -58,12 +64,12 @@ body {
 
 .title p:nth-child(1) {
   font-size: 6em;
-  color: HSLA(0, 0%, 100%, 1.00);
+  color: hsla(0, 0%, 100%, 1.00);
   margin: 0px;
 }
 
 .title p:nth-child(2) {
-  color: HSLA(204, 82%, 17%, 1.00);
+  color: hsla(204, 82%, 17%, 1.00);
   margin-top: -18px;
 }
 
