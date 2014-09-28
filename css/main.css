@@ -50,6 +50,10 @@ body {
   margin-top: 20px;
 }
 
+.topNavRight nav a {
+  text-decoration: none;
+}
+
 .topNavRight img {
   margin-top: 24px;
   margin-left: 5px;
