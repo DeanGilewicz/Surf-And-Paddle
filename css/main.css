@@ -250,14 +250,32 @@ h4 {
   margin-right: -4px;
 }
 
-.picText1 {
+.picText1, .picText2, .picText3, .picText4 {
   position: absolute;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-size: 28px;
-  bottom: 14px;
-  left: 15px;
   letter-spacing: 1px;
+}
+
+.picText1 {
+bottom: 14px;
+left: 15px;
+}
+
+.picText2 {
+  bottom: 14px;
+  left: 341px;
+}
+
+.picText3 {
+bottom: 14px;
+left: 668px;
+}
+
+.picText4 {
+  bottom: 14px;
+  left: 995px;
 }
 
 .tiy {
