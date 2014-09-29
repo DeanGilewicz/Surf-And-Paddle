@@ -270,7 +270,7 @@ h4 {
 .overlayImg3,
 .overlayImg4 {
   position: absolute;
-  background-color: hsla(206, 76%, 33%, 0.8);
+  background-color: hsla(206, 76%, 33%, 0.7);
   bottom: 0px;
   left: 0px;
   margin: 0px;
@@ -317,6 +317,18 @@ h4 {
 .postImg4 span {
   bottom: 14px;
   left: 19px;
+}
+
+.overlayImg1:hover,
+.postImg1:hover,
+.overlayImg2:hover,
+.postImg2:hover,
+.overlayImg3:hover,
+.postImg3:hover,
+.overlayImg4:hover,
+.postImg4:hover {
+  background-color: hsla(206, 76%, 33%, 0.00);
+  color: hsla(0, 0%, 100%, 1.00);
 }
 
 
