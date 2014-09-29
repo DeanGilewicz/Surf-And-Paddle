@@ -184,10 +184,10 @@ blockquote {
 }
 
 .buttons img {
-  background-color: hsla(205, 8%, 40%, 1.00);
   height: 17px;
   padding: 7px;
   vertical-align: middle;
+  background-color: hsla(205, 8%, 40%, 1.00);
 }
 
 .buttons span {
@@ -202,9 +202,12 @@ blockquote {
   color: hsla(0, 0%, 100%, 1.00);
 }
 
-.icon:hover {
-  background-color: hsla(206, 84%, 38%, 1.00);
-  background-color: white;
+.buttons img:hover {
+  background-color: hsla(204, 82%, 18%, 1);
+}
+
+.buttons li:hover {
+  background-color: hsla(206, 84%, 38%, 1);
 }
 
 
@@ -357,7 +360,7 @@ h4 {
 }
 
 
-/* BOTTOM BANNER */
+/* BOTTOM BANNER SECTION */
 
 .bottomBanner {
   clear: both;
