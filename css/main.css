@@ -337,9 +337,8 @@ h4 {
 .bottomBanner {
   clear: both;
   overflow: auto;
-  margin-top: -5px;
   padding-bottom: 33px;
-  background-color: red;
+  background-color: hsla(204, 82%, 18%, 1.00);
 }
 
 .tiy {
