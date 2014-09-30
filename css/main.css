@@ -1,4 +1,4 @@
-/* SASS VARIABLE */
+/* VARIABLES */
 /* MIXINS */
 /* PAGE CONTAINER */
 .container {
@@ -21,7 +21,7 @@ body {
   margin-top: 10px; }
   .topNavLeft img {
     float: left;
-    margin-right: 13px; }
+    margin-right: 10px; }
   .topNavLeft a {
     text-decoration: none;
     color: #08324f;
@@ -70,7 +70,7 @@ body {
 
 h1 {
   text-transform: uppercase;
-  font-size: 4em;
+  font-size: 63px;
   font-family: "Oswald", sans-serif;
   line-height: 69px;
   letter-spacing: -1.3px;
@@ -79,13 +79,13 @@ h1 {
 
 .author {
   padding-bottom: 50px; }
-  .author img, .author p {
-    float: left; }
   .author img {
+    float: left;
     width: 22px;
     margin-top: 7px;
     margin-left: 3px; }
   .author p {
+    float: left;
     margin-left: 9px;
     font-size: 13px;
     color: #106cb2; }
@@ -110,7 +110,7 @@ h1 {
     margin-bottom: 28px; }
 
 .fontGray {
-  color: #a2b2be; }
+  color: #bac6cf; }
 
 blockquote {
   font-size: 26px;
@@ -167,7 +167,7 @@ blockquote {
 .sidebar {
   float: right;
   width: 280px;
-  margin-right: 158px; }
+  margin-right: 160px; }
 
 .contact {
   margin-top: 83px;
@@ -177,11 +177,11 @@ blockquote {
     text-transform: uppercase;
     font-size: 17px;
     color: #106cb2;
-    margin-top: 4px; }
+    margin-top: 5px; }
   .contact a {
     font-size: 12px;
     text-decoration: none;
-    color: #a2b2be; }
+    color: #bac6cf; }
   .contact a:nth-child(4) {
     margin-right: 15px;
     margin-left: 15px; }
@@ -192,7 +192,7 @@ blockquote {
 .ad a {
   float: right;
   font-size: 13px;
-  color: #a2b2be;
+  color: #bac6cf;
   margin-right: 3px;
   margin-top: 4px; }
 
@@ -208,7 +208,7 @@ blockquote {
   .sideText p {
     margin-top: 1px;
     font-size: 14px;
-    color: #a2b2be;
+    color: #bac6cf;
     letter-spacing: 0px;
     line-height: 24px; }
 
@@ -225,10 +225,7 @@ h4 {
   margin-top: 92px;
   margin-bottom: 36px; }
 
-.overlayImg1,
-.overlayImg2,
-.overlayImg3,
-.overlayImg4 {
+.overlay {
   position: absolute;
   background-color: rgba(20, 93, 148, 0.7);
   bottom: 0px;
@@ -236,52 +233,24 @@ h4 {
   margin: 0px;
   width: 100%;
   height: 100%; }
+  .overlay:hover {
+    background-color: rgba(20, 93, 148, 0); }
 
-.postImg1,
-.postImg2,
-.postImg3,
-.postImg4 {
+.postImg {
   float: left;
   position: relative;
   width: 325px;
   height: 330px; }
-
-.postImg1 span,
-.postImg2 span,
-.postImg3 span,
-.postImg4 span {
-  position: absolute;
-  text-transform: uppercase;
-  font-family: "Oswald", sans-serif;
-  font-size: 28px;
-  letter-spacing: 1px; }
-
-.postImg1 span {
-  bottom: 9px;
-  left: 15px; }
-
-.postImg2 span {
-  bottom: 10px;
-  left: 16px; }
-
-.postImg3 span {
-  bottom: 9px;
-  left: 18px; }
-
-.postImg4 span {
-  bottom: 9px;
-  left: 19px; }
-
-.postImg1:hover,
-.postImg2:hover,
-.postImg3:hover,
-.postImg4:hover,
-.overlayImg1:hover,
-.overlayImg2:hover,
-.overlayImg3:hover,
-.overlayImg4:hover {
-  background-color: rgba(20, 93, 148, 0);
-  color: white; }
+  .postImg span {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    bottom: 9px;
+    left: 15px; }
+  .postImg:hover {
+    color: white; }
 
 /* BOTTOM BANNER SECTION */
 .bottomBanner {
@@ -289,7 +258,7 @@ h4 {
   overflow: auto;
   margin-top: -5px;
   padding-bottom: 33px;
-  background-color: #083554; }
+  background-color: #08324f; }
 
 .tiy {
   float: left;
@@ -300,8 +269,8 @@ h4 {
   .tiy span {
     display: inline-block;
     font-size: 13px;
-    color: #a2b2be;
-    margin-left: 8px;
+    color: #bac6cf;
+    margin-left: 7px;
     letter-spacing: 0.3px;
     margin-top: 17px; }
 
@@ -312,7 +281,7 @@ h4 {
   .navItems a {
     display: inline-block;
     font-size: 13px;
-    color: #a2b2be;
+    color: #bac6cf;
     margin-right: 1px;
     border-right: 1px solid #5e676e;
     padding-right: 7px;
