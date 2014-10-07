@@ -1,6 +1,3 @@
-This is my Surf and Paddle project.
+## Surf & Paddle
 
-# This is my first project creating a mock up using HTML and CSS
-
-
-An edit on github.com to test how to pull and merge files.
+A pixel perfect web page created from a mock up using HTML and CSS.
